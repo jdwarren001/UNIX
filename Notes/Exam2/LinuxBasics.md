@@ -41,10 +41,22 @@
     All kernel modules (drivers) loaded on the machine
 
     -> Kernel: When computer launches, has a bunch of exe that run
-        - ** ko ** objects are public objects that are reserved for the kernel
+        - ** .ko ** objects are public objects that are reserved for the kernel
 
 ### insmod
     Adds new exe to kernel (needs .ko reference)
 
 ### modprobe
     Add or delete modules to kernel
+
+---
+<br>
+
+# <b>New Basics</b>
+
+
+### date
+    shows exact date in linux terminal
+
+    -> NTP: server that coordinates machine and server to be very close to server time.
+
