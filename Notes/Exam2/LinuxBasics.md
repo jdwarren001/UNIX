@@ -1,5 +1,9 @@
 # General Linux Commands
 
+<br> <br>
+
+## <b>Memory</b>
+---
 ### ls usb -v
     Lists details of devices mounted
 
@@ -37,6 +41,11 @@
 ### dmesg
     (time) and activity log of all things the machine has done since booted. 
 
+<br> <br>
+
+## <b>Kernels and mod</b>
+---
+
 ### lsmod
     All kernel modules (drivers) loaded on the machine
 
@@ -50,13 +59,53 @@
     Add or delete modules to kernel
 
 ---
-<br>
-
-# <b>New Basics</b>
-
 
 ### date
     shows exact date in linux terminal
 
     -> NTP: server that coordinates machine and server to be very close to server time.
 
+---
+
+<br> 
+
+## <b>File Differences</b>
+
+---
+### diff 
+    prints both files to show side by side differences
+    *only prints the differences between the files*
+
+    - "-y" creates side by side orientation
+
+    - Useful for text files (can use for images, etc., but only sates that they are diff)
+
+### numdiff
+    same thing, but shows just the number of the files being different
+
+> Shows T/F of  file consistency
+
+---
+
+## <b>Archives/Zips</b>
+
+### tar
+    TAPE ARCHIVE: Able to use archive and extract files 
+        - (Kinda like zip)
+        - Puts it in a block to download later
+
+    << tar -cf filename.tar fileOriginal >>
+
+    -> creates a .tar archive copy of item
+    -> cf is create file, then new file name, file/folder to be copied
+
+    << tar -czf "backup`date '+%m_%d_%y'`.tgz" temp>>
+
+    -> create zip file name backup.tgz (with sepcific time) of temp folder
+
+    *Zip file is smaller than tar archive so use czf*
+
+### crontab -e
+    backs up file every certain amount of time
+
+---
