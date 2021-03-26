@@ -109,3 +109,16 @@
     backs up file every certain amount of time
 
 ---
+
+## <b>Website stuff</b>
+
+### whois "website name" / nslookup "website"
+    finds a bunch of data on the creator of the website
+
+### ping 
+    tells the time it takes for messages to be sent to addresses and back
+
+### traceroute
+    Similar to ping but tells the addresses that packets went through
+
+---
