@@ -45,7 +45,7 @@
 ## numdiff
     Smarter compare for files with numbers
 
-## crontab
+## `crontab`
     Run application at particular time
 
 ## lsmod
@@ -76,7 +76,7 @@
     -dev on end includes header files
 
 ## tar
-    put files into single file and preserve    permissions/structure
+    put files into single file and preserve permissions/structure
     -> Archive for files
     -> Can also zip files
 
